@@ -12,7 +12,7 @@ There is a fundamental misunderstanding in the reviewer's terminology, which may
 
 ### 🧪 Empirical Evidence provided in this Repo:
 * **Our rQR(t)**: Completes successfully **without artificial bias/shifts**, maintaining $cond(Q) \approx 3.5$.
-* **The Reviewer's Suggestion (SCholeskyQR3)**: Even with the recommended shift, it **still fails** on our extreme test cases (see `logs/failure_log.txt`).
+* **The Reviewer's Suggestion (SCholeskyQR3)**: Even with the recommended shift, it **still fails** on our extreme test cases (see `screenshot_figure.png`).
 
 **Conclusion:** Comparing our work against a "shifted" baseline while mislabeling it as "standard" leads to an incorrect assessment of our paper's novelty and robustness.
 
